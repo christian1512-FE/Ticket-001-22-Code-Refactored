@@ -8,11 +8,9 @@ refactoring it without changing its functionality. The main problem the original
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Screenshot of website
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![alt text](./assets/Screenshot%20Image/Screen%20Shot%202022-10-27%20at%209.09.32%20PM.png)
 
 ## HTML Code Improvements
 
@@ -38,7 +36,7 @@ Changed the <div> class to <section> class the section element in which is used 
 
 *Changed the <div class="content"> to <section class="content">
 
-*Changed <div class="search-engine-optimization"> to <section id="search-engine-optimization" also added class="search-engine-optimization"> in which it  fixes the link that was not working on the website. 
+*Changed ('code'> <div class="search-engine-optimization"> ('code') to ('code"> <section id="search-engine-optimization" <'code'> also added class="search-engine-optimization">('code') in which it  fixes the link that was not working on the website. 
 
 *Added <alt> attributes to all of the images to increase the websites accessiblity. 
 
