@@ -1,4 +1,4 @@
-# Ticket-001-Code-Refactored
+# Ticket-001-22-Code-Refactored
 Module 1 Challenge Project 
 
 ## Description
@@ -19,11 +19,11 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 In order to improve the codes web accessibities I changed the non-semantic elements to semantic elements, added alt attributes to images, and fixed links that werent working properly on the website.
 
 
-Modifications to the HTML code. 
+<h2>Modifications to the HTML code. 
 
-Changed the name of the website on the "head" element changed the title of the website to "Horiseon Social Solution Services"
+<p> Changed the name of the website on the <head> element changed the title of the website to "Horiseon Social Solution Services"</p>
 
-*Added the <header> element in which is used to represent introductory content. 
+<ul> *Added the <header> element in which is used to represent introductory content. 
 
 *Changed <div> tag to <header>
 
@@ -46,7 +46,7 @@ Changed the <div> class to <section> class the section element in which is used 
 
 *Changed the footers <div class> to <footer class>
 
-*Changed the heading attribute <h2> on footer to <h4> so it falls in sequental order.
+*Changed the heading attribute <h2> on footer to <h4> so it falls in sequental order. </ul>
 
 
 
@@ -55,20 +55,20 @@ Changed the <div> class to <section> class the section element in which is used 
 CSS style sheet modifications. There were several modification I applied to the CSS style sheet such as grouping CSS selectors, deleting some CSS selectors, renaming CSS selectors and organizing the CSS selectors and properties to follow the semantic structure of the HTML elements. 
 
 
-Renaming CSS selectors. 
-As seen on the HTML sheet modifications I changed the <div> HTML element to <nav>.
+<p>Renaming CSS selectors. 
+As seen on the HTML sheet modifications I changed the <div> HTML element to <nav>.</p>
 
-  BEFORE                                       AFTER 
+  <p>BEFORE                                       AFTER 
 .header div        ------------------>      .header nav 
 .header div ul     ------------------>      .header nav ul
-.header div ul li  ------------------>      .header nav ul li 
+.header div ul li  ------------------>      .header nav ul li </p>
 
 
-Consalidated some of the selectors and properties of the CSS style sheet. This is very helpful when it comes time to make site maintance. Instead of having multiple sectors with the same style by grouping them I can apply the same style to different of elements. 
+<p>Consalidated some of the selectors and properties of the CSS style sheet. This is very helpful when it comes time to make site maintance. Instead of having multiple sectors with the same style by grouping them I can apply the same style to different of elements.</p>
 
-Below are the CSS selectors I combined:
+<h2>Below are the CSS selectors I combined:</h2>
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+<p>.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -100,11 +100,11 @@ Below are the CSS selectors I combined:
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}"
+}" </p>
 
-Deleted CSS selectors: 
+<h2>Deleted CSS selectors: </h2>
 
-This CSS selector was used for the <span> element in which is used to color part of the text. As seen on the HTML code improvements I deleted the class "seo" to improve the websites accessiblity. 
+<p>This CSS selector was used for the <span> element in which is used to color part of the text. As seen on the HTML code improvements I deleted the class "seo" to improve the websites accessiblity. 
 
 .header h1 .seo {
     color: #d9dcd6;
@@ -114,10 +114,17 @@ This CSS selector was used to give the footer <h4> font-size. Instead I added th
 
 .footer h2 {
     font-size: 20px;
-}
+} </p>
+
+## License
+
+The MIT License (MIT)
+
+Copyright (c) 2022 Christian Mendez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 
