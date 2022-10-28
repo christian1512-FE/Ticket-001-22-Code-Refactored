@@ -16,7 +16,7 @@ CSS selectors and properties are consolidated and organized to follow semantic s
 To do se we can go on the website and right click and select "Inspect" and we are able to see 
 all of the code organized and following a semantic structure.
 
-After modifying 
+
 ![alt text](./assets/Screenshot%20Image/Screen%20Shot%202022-10-27%20at%209.09.32%20PM.png)
 
 ## HTML Code Improvements
