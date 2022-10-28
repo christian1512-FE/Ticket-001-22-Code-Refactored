@@ -17,34 +17,35 @@ Screenshot of website
 In order to improve the codes web accessibities I changed the non-semantic elements to semantic elements, added alt attributes to images, and fixed links that werent working properly on the website.
 
 
-<code>Modifications to the HTML code. 
+Modifications to the HTML code.
+```
+Changed the name of the website on the <head> element changed the title of the website to "Horiseon Social Solution Services"
 
-"Changed the name of the website on the <head> element changed the title of the website to "Horiseon Social Solution Services"
+Added the <header> element in which is used to represent introductory content. 
 
-*Added the <header> element in which is used to represent introductory content. 
+Changed <div> tag to <header>
 
-*Changed <div> tag to <header>
-
-*Changed <h1>Hori<span class="seo">seo</span>n</h1> to <h1>Horiseon</h1>
+Changed <h1>Hori<span class="seo">seo</span>n</h1> to <h1>Horiseon</h1>
 just a simple header name to help the websites accessiblity. 
 
-*Changed the <div> tag to <nav> element in which is used to provided navigation to links. 
+Changed the <div> tag to <nav> element in which is used to provided navigation to links. 
 
-*Added the <main> element in which is used represent the main content on the website.
+Added the <main> element in which is used represent the main content on the website.
 
 Changed the <div> class to <section> class the section element in which is used defines a section on the website.
 
-*Changed the <div class="content"> to <section class="content">
+Changed the <div class="content"> to <section class="content">
 
-*Changed ('code'> <div class="search-engine-optimization"> ('code') to ('code"> <section id="search-engine-optimization" <'code'> also added class="search-engine-optimization">('code') in which it  fixes the link that was not working on the website. 
+Changed <div class="search-engine-optimization"> to <section id="search-engine-optimization" also added class="search-engine-optimization"> in which it  fixes the link that was not working on the website. 
 
-*Added <alt> attributes to all of the images to increase the websites accessiblity. 
+Added <alt> attributes to all of the images to increase the websites accessiblity. 
 
-*Added the <aside> element in which represents secondarty content on the website.
+Added the <aside> element in which represents secondarty content on the website.
 
-*Changed the footers <div class> to <footer class>
+Changed the footers <div class> to <footer class>
 
-*Changed the heading attribute <h2> on footer to <h4> so it falls in sequental order"</code>
+Changed the heading attribute <h2> on footer to <h4> so it falls in sequental order"
+```
 
 
 
