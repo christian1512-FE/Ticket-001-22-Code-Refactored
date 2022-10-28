@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* This CSS selector is targeting the body element and the
+properties applied below are used to give the background a color. */
+body {
+    background-color: #d9dcd6;
+}
+/* 
+These CSS selector is targeting the HTML class "header". The selectors properties 
+used to give the header of the page style and color. */
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This CSS selector is used to target the heading class "h1" which is
+the name of the company that is on the top left hand side.
+These selectors properties style and set the font*/
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* DELETED To make the header <1> more accessbile to read. */
+/* 
+.header h1 .seo {
+    color: #d9dcd6;
+} */
+
+
+/* This CSS selector is used to style and set font size for the navigation menu on 
+top of the page. I changed the division tag to the navigation tag. */
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* CHANGED DIV TO NAV */
+.header nav ul {
+    list-style-type: none;
+}
+/* CHANGED DIV TO NAV */
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* This CSS selector is used to give color and style to menu bar.
+ It's targeting the HTML element <a> which is used to link to another page. */
+
+a {
+    color: #ffffff;
+    text-decoration: none; 
+    
+} 
+
+
+/* This CSS selector is targeting the class "hero" which is the background image of the website.*/
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* This CSS selector is targeting the HTML class "content" in which the properties used
+give style to the main three boxes in the middle of the page.  */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+} 
+
+
+
+/* Here we have a selector list. I combined all three of them since they all had the same rule. 
+These CSS properties are targetting the HTML classes in which are used to style the main three boxes in
+the middle of the page. */
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+
+/* Here we have a selector list. I combined all three of them since they all had the same rule. 
+These CSS properties are targetting the HTML "<img> element in which embeds the images on the main
+three boxes in the middle of the page.*/
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+
+}
+
+/* This CSS selector is targetting the HTML classes "float-left" & .float-right. 
+The properties on this selector are used to style and to set the images in the main 3 middle boxes to either 
+left or right. */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+} 
+
+
+/* Here we have a selector list. I combined all three of them since they all had the same rule. 
+These CSS properties are targeting the HTML headings <2> in which are used to style and give the font size 
+the heading of the main three boxes in the middle of the page*/
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This CSS selector is targeting the HTML element <p> in which 
+is used to give all paragraphs using that element the same font size.  */
+
+p {
+    font-size: 16px;
+}
+
+
+/* This CSS selector is targetting the class "benefits". The properties under the CSS selector give style 
+to the aside box which is located on the far right handside of the webpage  */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
+/* Here we have a selector list. I combined all three of them since they all had the same rule.
+These CSS properties gives style and color to the aside box  */
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} 
+
+
+/* Here we have a selector list. I combined all three of them since they all had the same rule.
+These CSS properties set the margin area on the bottom of an element this one is targetting the aside box */
+
+
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Here we have a selector list. I combined all three of them since they all had the same rule. 
+These CSS properties style the images on the aside box*/
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* 
+These CSS selector properties are targetting the HTML class footer 
+in which it gives paragraph style. I also added the font size for the 
+heading <4> on here since the there is already an CSS selector targetting the
+paragraphs font size. */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* 
+DELETED, This CSS selector property are targetting the HTML element heading <4> to give 
+give it the font size. 
+/* 
+.footer h4 {
+    font-size: 20px;
+}  */
+
