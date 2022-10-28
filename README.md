@@ -53,16 +53,17 @@ Changed the heading attribute <h2> on footer to <h4> so it falls in sequental or
 
 CSS style sheet modifications. There were several modification I applied to the CSS style sheet such as grouping CSS selectors, deleting some CSS selectors, renaming CSS selectors and organizing the CSS selectors and properties to follow the semantic structure of the HTML elements. 
 
-
-<code>"Renaming CSS selectors. 
+```
+Renaming CSS selectors. 
 As seen on the HTML sheet modifications I changed the <div> HTML element to <nav>.
 
   BEFORE                                       AFTER 
 .header div        ------------------>      .header nav 
 .header div ul     ------------------>      .header nav ul
 .header div ul li  ------------------>      .header nav ul li 
+```
 
-
+```
 Consalidated some of the selectors and properties of the CSS style sheet. This is very helpful when it comes time to make site maintance. Instead of having multiple sectors with the same style by grouping them I can apply the same style to different of elements.
 
 Below are the CSS selectors I combined:
@@ -100,9 +101,10 @@ Below are the CSS selectors I combined:
     margin: 10px auto;
     max-width: 150px;
 }" 
-
+```
 Deleted CSS selectors: 
 
+```
 This CSS selector was used for the <span> element in which is used to color part of the text. As seen on the HTML code improvements I deleted the class "seo" to improve the websites accessiblity. 
 
 .header h1 .seo {
@@ -114,7 +116,7 @@ This CSS selector was used to give the footer <h4> font-size. Instead I added th
 .footer h2 {
     font-size: 20px;
 }"</code>
-
+```
 ## License
 
 The MIT License (MIT)
