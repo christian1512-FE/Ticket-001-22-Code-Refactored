@@ -4,17 +4,25 @@ Module 1 Challenge Project
 ## Description
 
 The purpose of this project is to learn how to take existing code and improve it by
-refactoring it without changing its functionality. The main problem the original code had were accessibility barriers, in which makes it difficult for people with disabilities to use the website. 
+refactoring it without changing its functionality. The main problem the original code had were 
+accessibility barriers, in which makes it difficult for people with disabilities to use the website. 
 
 ## Usage
 
-Screenshot of website after modifing the code for this project 
+**Screenshot of website** 
 
+After refactoring the code all of the links are fully functional. To view if all of the 
+CSS selectors and properties are consolidated and organized to follow semantic structure.
+To do se we can go on the website and right click and select "Inspect" and we are able to see 
+all of the code organized and following a semantic structure.
+
+After modifying 
 ![alt text](./assets/Screenshot%20Image/Screen%20Shot%202022-10-27%20at%209.09.32%20PM.png)
 
 ## HTML Code Improvements
 
-In order to improve the codes web accessibities I changed the non-semantic elements to semantic elements, added alt attributes to images, and fixed links that werent working properly on the website.
+In order to improve the codes web accessibities I changed the non-semantic elements to semantic elements, 
+added alt attributes to images, and fixed links that werent working properly on the website.
 
 
 **Modifications to the HTML code:**
@@ -36,7 +44,8 @@ In order to improve the codes web accessibities I changed the non-semantic eleme
 
 - Changed the <div class="content"> to <section class="content">
 
-- Changed <div class="search-engine-optimization"> to <section id="search-engine-optimization" also added class="search-engine-optimization"> in which it  fixes the link that was not working on the website. 
+- Changed <div class="search-engine-optimization"> to <section id="search-engine-optimization" also added class="search-engine-optimization"> 
+  in which it  fixes the link that was not working on the website. 
 
 - Added <alt> attributes to all of the images to increase the websites accessiblity. 
 
